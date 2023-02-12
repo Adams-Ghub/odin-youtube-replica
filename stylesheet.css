@@ -36,10 +36,11 @@ body {
 }
 
 .sidebar {
-  background-color: #28231d;
+  /* background-color: #28231d; */
   width: 30%;
   margin-top: 20px;
-  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .toggle-btn {
@@ -154,4 +155,68 @@ body {
   background-color: #c00;
   padding: 0px 4px;
   border-radius: 22px;
+}
+
+.sidebar-selected-btn {
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  color: #0f0f0f;
+}
+
+.sidebar-unselected-btn {
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: #ffffff1a;
+  color: #f1f1f1;
+}
+
+.sidebar-video-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 8px;
+}
+
+.sidebar-video {
+  border-radius: 10px;
+}
+
+.side-video-text-section {
+  margin: 0px 5px;
+}
+
+.views-and-post-time-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+}
+
+#post-time-text,
+#views-text {
+  color: #aaa;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin: 5px 6px 0px 0px;
+}
+
+.video-title {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 150px;
+  padding: 0px;
+  margin: 0px 0px 10px 0px;
+}
+.channel-name {
+  color: #aaa;
+  font-family: sans-serif;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
 }
