@@ -30,13 +30,16 @@ body {
 }
 
 .video-player-container {
-  background-color: #0c0908;
+  /* background-color: #0c0908; */
   width: 50%;
+  margin-top: 20px;
 }
 
 .sidebar {
   background-color: #28231d;
   width: 30%;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 .toggle-btn {
@@ -99,4 +102,56 @@ body {
 
 .voice-search-btn:hover {
   background-color: #ffffff14;
+}
+
+.addvideo-notification-account-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addvideo-button {
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-style: none;
+  outline: none;
+}
+
+.notification-btn {
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+}
+
+.addvideo-button:hover,
+.notification-btn:hover {
+  background-color: #ffffff14;
+}
+.addvideo-icon {
+  width: 22px;
+}
+
+.profile-pic {
+  width: 35px;
+  border-radius: 50%;
+}
+
+.notification-text {
+  color: #fff;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 12px;
+  bottom: 13px;
+  right: 33px;
+  background-color: #c00;
+  padding: 0px 4px;
+  border-radius: 22px;
 }
